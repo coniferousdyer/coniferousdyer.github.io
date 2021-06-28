@@ -48,7 +48,7 @@ nav a {
     color: white;
     padding: 1.5% 3% 0.5% 3%;
     border-bottom: 0.15em solid transparent;
-    transition: color 0.5s, border-bottom 0.3s;
+    transition: color 0.3s, border-bottom 0.3s;
 }
 
 nav a:hover {
