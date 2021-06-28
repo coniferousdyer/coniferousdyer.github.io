@@ -18,18 +18,10 @@ section {
     flex-wrap: wrap;
 }
 
-#main-header {
-    background-image: url('../Images/Code_Background.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position-x: 40%;
-}
-
 /***********************************************/
 
 nav {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.562);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,6 +29,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1;
+    transition: top 0.3s;
 }
 
 nav ul {
@@ -66,6 +59,14 @@ nav a:hover {
 }
 
 /***********************************************/
+
+#main-header {
+    background-image: url('../Images/Code_Background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: 40%;
+}
 
 header {
     position: absolute;
