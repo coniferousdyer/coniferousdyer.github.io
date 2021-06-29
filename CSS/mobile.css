@@ -138,3 +138,53 @@ header h1 {
     99% { background-color: transparent; }
     100% { background-color: white; }
 }
+
+/***********************************************/
+
+#about {
+    position: relative;
+}
+
+#photo {
+    position: absolute;
+    left: 13vw;
+}
+
+#photo img {
+    width: 20vw;
+    border-radius: 1vw;
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+}
+
+#photo img:hover {
+    filter: grayscale(0);
+}
+
+#description {
+    position: absolute;
+    left: 25vw;
+    z-index: -1;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    font-weight: 300;
+    width: 60vw;
+    padding: 5vw;
+    padding-left: 12vw;
+}
+
+#description h1 {
+    font-weight: 800;
+    font-size: 3vw;
+}
+
+#description hr {
+    color: #e34234;
+}
+
+.vermillion {
+    color: #e34234;
+}
+
+/***********************************************/
