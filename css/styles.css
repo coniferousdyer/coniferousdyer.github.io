@@ -11,6 +11,40 @@ html, body {
     scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+
+.wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+nav {
+    z-index: 10;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    width: 95%;
+    padding: 1vw;
+    padding-top: 2vw;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 1.1vw;
+    margin: 0 1.5vw;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #333;
+}
+
+nav .fa {
+    font-size: 1.7vw;
 }
 
 section {
@@ -74,7 +108,7 @@ section {
     width: 70%;
 }
 
-.fa {
+#social-media .fa {
     padding: 1.5vw;
     font-size: 3vw;
     width: 3.6vw;
@@ -85,26 +119,26 @@ section {
     transition: transform 0.3s;
 }
   
-.fa:hover {
+#social-media .fa:hover {
     transform: translate(0, -1vw);
 }
   
-.fa-facebook {
+#social-media .fa-facebook {
     background: #3B5998;
     color: white;
 }
 
-.fa-linkedin {
+#social-media .fa-linkedin {
     background: #007bb5;
     color: white;
 }
 
-.fa-youtube {
+#social-media .fa-youtube {
     background: #bb0000;
     color: white;
 }
 
-.fa-github {
+#social-media .fa-github {
     background: #333;
     color: white;
 }
