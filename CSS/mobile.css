@@ -139,20 +139,18 @@ header h1 {
     100% { background-color: white; }
 }
 
-/***********************************************/
-
 #about {
     position: relative;
 }
 
 #photo {
     position: absolute;
-    left: 13vw;
+    left: 35vw;
+    top: 32vw;
 }
 
 #photo img {
-    width: 20vw;
-    border-radius: 1vw;
+    width: 30vw;
     filter: grayscale(100%);
     transition: filter 0.5s;
 }
@@ -163,15 +161,13 @@ header h1 {
 
 #description {
     position: absolute;
-    left: 25vw;
-    z-index: -1;
+    left: 20vw;
+    top: 70vw;
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 1vw;
+    font-size: 2vw;
     font-weight: 300;
-    width: 60vw;
     padding: 5vw;
-    padding-left: 12vw;
 }
 
 #description h1 {
@@ -186,5 +182,3 @@ header h1 {
 .vermillion {
     color: #e34234;
 }
-
-/***********************************************/
