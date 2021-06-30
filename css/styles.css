@@ -9,7 +9,6 @@ html, body {
     overflow: scroll;
     height: 100vh;
     scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
     -ms-overflow-style: none;  
@@ -76,31 +75,37 @@ section {
 }
 
 #pic3 {
-    /* background-image: url('../img/IIIT2.jpg'); */
+    background-image: url('../img/Code2.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
 
 #skills {
-    background-color: #2b9fb3d7;
+    background-color: #2b9fb3ec;
+}
+
+#pic4 {
+    background-image: url('../img/Projects.png');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #projects {
-    background-color: #4A5899;
+    background-color: #4a5999e7;
 }
 
 #contact {
-    background-color: #DBD5B5;
-}
-
-#social-media {
-    background-color: #44af69dc;
+    background-color: #dbd5b5e0;
 }
 
 #pic6 {
     background-image: url('../img/scenery.jpeg');
     background-size: cover;
     background-attachment: fixed;
+}
+
+#social-media {
+    background-color: #44af69dc;
 }
 
 #header {
