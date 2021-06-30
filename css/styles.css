@@ -7,7 +7,7 @@ html, body {
 
 .wrapper {
     overflow: scroll;
-    height: 101vh;
+    height: 100vh;
     scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory;
