@@ -55,16 +55,52 @@ section {
     position: relative;
 }
 
+#pic1 {
+    background-image: url('../img/Code_Background.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 #welcome {
-    background-color: #F8333C;
+    background-color: #f8333dd2;
+}
+
+#pic2 {
+    background-image: url('../img/IIIT.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #about {
-    background-color: #FCAB10;
+    background-color: #fca910d7;
+}
+
+#pic3 {
+    /* background-image: url('../img/IIIT2.jpg'); */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#skills {
+    background-color: #2b9fb3d7;
+}
+
+#projects {
+    background-color: #4A5899;
+}
+
+#contact {
+    background-color: #DBD5B5;
 }
 
 #social-media {
-    background-color: #44AF69;
+    background-color: #44af69dc;
+}
+
+#pic6 {
+    background-image: url('../img/scenery.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #header {
