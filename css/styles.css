@@ -58,13 +58,13 @@ section {
 }
 
 #pic1 {
-    background-image: url('../img/Code_Background.jpeg');
+    background-image: url('../img/titlepage.jpeg');
     background-size: cover;
     background-attachment: fixed;
 }
 
 #welcome {
-    background-color: #f8333dd2;
+    background-color: #f8333dda;
 }
 
 #pic2 {
@@ -88,7 +88,7 @@ section {
 }
 
 #pic4 {
-    background-image: url('../img/Projects.png');
+    background-image: url('../img/Code_Background.jpeg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -246,3 +246,76 @@ section {
     align-items: center;
     box-shadow: 0.3vw 0.3vw black;
 }
+
+#projects #projects-content {
+    position: absolute;
+    left: 6vw;
+    width: 88%;
+}
+
+#projects #projects-content h1 {
+    color: #DBD5B5;
+    text-shadow: 0.3vw 0.3vw black;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 4vw;
+}
+
+#projects #projects-content #list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#projects #projects-content #list .proj {
+    position: relative;
+}
+
+#projects #projects-content #list .proj img {
+    width: 18vw;
+    margin-right: 1.81vw;
+    box-shadow: 0.3vw 0.3vw black;
+    transition: all 0.5s;
+}
+
+.overlay {
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: 1.15vw;
+    font-weight: 1000;
+    background-color: #2b9fb3de;
+    width: 0;
+    height: 9vw;
+    transition: .5s ease;
+}
+
+.proj:hover .overlay {
+    width: 91%;
+}
+
+.overlay i {
+    color: black;
+    transition: color 0.5s;
+}
+
+.overlay i:hover {
+    color: #DBD5B5;
+}
+
+/*--*/
+
+/* .proj:hover img {
+    width: 22vw;    
+}
+
+.overlay:hover .proj img {
+    width: 22vw;  
+} */
