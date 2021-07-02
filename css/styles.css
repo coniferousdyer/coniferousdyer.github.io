@@ -2,22 +2,23 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    overflow: hidden;
-}
-
-.wrapper {
-    overflow: scroll;
-    height: 100vh;
-    scroll-snap-type: mandatory;
-    scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
-    -ms-overflow-style: none;  
-    scrollbar-width: none;  
+    /* overflow: hidden; */
 }
 
-.wrapper::-webkit-scrollbar {
+/* .wrapper { */
+    /* overflow: scroll; */
+    /* height: 100vh; */
+    /* scroll-snap-type: mandatory;
+    scroll-snap-type: y mandatory; */
+    /* scroll-behavior: smooth; */
+    /* -ms-overflow-style: none;  
+    scrollbar-width: none;   
+} */
+
+/* .wrapper::-webkit-scrollbar {
     display: none;
-}
+} */
 
 nav {
     z-index: 10;
