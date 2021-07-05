@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    width: 97%;
+    display: flex;
+    justify-content: right;
+    margin-right: 1vw;
+    margin-top: 2vw;
+    top: 0;
+    z-index: 5;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 0 0 2vw;
+    border-radius: 1.5vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1vw;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    font-weight: 800;
+    transition: all 0.2s;
+}
+
+nav a:hover {
+    background-color: #4da8da;
+}
+
+nav .fa {
+    font-size: 1.7vw;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+[data-aos][data-aos][data-aos-delay='3500'].aos-animate, body[data-aos-delay='3500'] [data-aos].aos-animate {
+	transition-delay: 3.5s;
+}
+
+[data-aos][data-aos][data-aos-delay='5000'].aos-animate, body[data-aos-delay='5000'] [data-aos].aos-animate {
+	transition-delay: 5s;
+}
+
+@keyframes append-animate {
+	from {
+		transform: translateY(100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0%);
+		opacity: 1;
+	}
+}
+
+.new-addition {
+	animation: append-animate .2s linear;
+    animation-timing-function: ease-out;
+}
+
+#welcome {
+    background: linear-gradient(110deg, #3B28CC 60%, #2667FF 60%);
+}
+
+#welcome #laptop #monitor {
+    width: 55vw;
+    height: 32vw;
+    background-image: linear-gradient(to right, #333, black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vw;
+}
+
+#welcome #laptop {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#welcome #laptop #monitor #screen {
+    width: 53vw;
+    height: 30vw;
+    background-color: white;
+    border-radius: 0.5vw;
+    position: relative;
+}
+
+#welcome #laptop #monitor #screen #chatbox {
+    border: 0.1vw solid black;
+    width: 45vw;
+    height: 2.3vw;
+    border-radius: 2vw;
+    position: absolute;
+    bottom: 1vw;
+    left: 1vw;
+    padding-left: 1vw;
+    background-color: white;
+    font-size: 0.8vw;
+    z-index: 2;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+#welcome #laptop #keyboard {
+    width: 60vw;
+    height: 1.7vw;
+    background-image: linear-gradient(#333, black);
+    margin-top: 0.1vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 1vw 1vw;
+}
+
+#welcome #laptop #keyboard #touchpad {
+    background-color: white;
+    height: 0.7vw;
+    width: 10vw; 
+    border-radius: 0 0 0.5vw 0.5vw;
+}
+
+#messager-name {
+    margin: 1vw 0.5vw 0.5vw 1vw;
+    font-size: 1vw;
+}
+
+.text-message {
+    background-color: rgb(52, 52, 255);
+    color: white;
+    font-size: 1.4vw;
+    margin: 0.5vw;
+    margin-left: 0.8vw;
+    padding: 1vw;
+    border-radius: 1vw 1vw 1vw 0;
+}
+
+#send-button {
+    color: white;
+    background-color: rgb(52, 52, 255);
+    width: 8%;
+    font-size: 1vw;
+    height: 2.3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 1vw;
+    right: 2vw;
+    border-radius: 1vw;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    transition: 0.5s;
+}
+
+#send-button:hover {
+    background-color: rgb(43, 43, 199);
+    cursor: pointer;
+}
+
+#button, #top-bar {
+    visibility: hidden;
+}
+
+#mes1 {
+    width: 52%;
+}
+
+#mes2 {
+    width: 36.5%;
+}
+
+#mes3 {
+    width: 29%;
+}
+
+#sidebar {
+    display: none;
+}
