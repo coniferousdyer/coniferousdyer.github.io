@@ -17,7 +17,7 @@ nav {
     margin-right: 1vw;
     margin-top: 2vw;
     top: 0;
-    z-index: 5;
+    z-index: 6;
 }
 
 nav a {
@@ -38,6 +38,27 @@ nav a:hover {
 
 nav .fa {
     font-size: 1.7vw;
+}
+
+#scroll-to-top {
+    position: fixed;
+    bottom: 2vw;
+    right: 2vw;
+    color: white;
+    border-radius: 50%;
+    padding: 0 0.8vw 0 0.8vw;
+    background-color: #4da8da;
+    font-size: 2.5vw;
+    z-index: 5;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    transition: background-color 0.2s;
+}
+
+#scroll-to-top:hover {
+    background-color: #428eb8;
 }
 
 section {
