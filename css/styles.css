@@ -20,6 +20,14 @@ html, body {
     display: none;
 } */
 
+[data-aos][data-aos][data-aos-delay='4000'].aos-animate, body[data-aos-delay='4000'] [data-aos].aos-animate {
+	transition-delay: 4s;
+}
+
+[data-aos][data-aos][data-aos-delay='5500'].aos-animate, body[data-aos-delay='5500'] [data-aos].aos-animate {
+	transition-delay: 5.5s;
+}
+
 nav {
     z-index: 10;
     text-align: right;
