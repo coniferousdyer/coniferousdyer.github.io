@@ -17,7 +17,7 @@ nav {
     margin-right: 1vw;
     margin-top: 2vw;
     top: 0;
-    z-index: 5;
+    z-index: 10;
 }
 
 nav a {
@@ -81,7 +81,7 @@ section {
     font-family: 'Poppins', sans-serif;
 }
 
-#welcome #laptop #monitor #screen {
+#screen {
     width: 53vw;
     height: 30vw;
     background-color: white;
@@ -134,7 +134,7 @@ section {
 }
 
 #mes3 {
-    width: 65%;
+    width: 60%;
 }
 
 #sidebar {
