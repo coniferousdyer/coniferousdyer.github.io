@@ -3,12 +3,12 @@
     border-radius: 50%;
     cursor: pointer;
     transition: color 0.3s;
-    color: rgba(255, 255, 255, 0.514);
+    color: white;
     font-size: 8vw;
 }
 
 #hamburger-icon:hover {
-    color: white;
+    color: rgba(255, 255, 255, 0.514);
 }
 
 #sidebar {
@@ -20,27 +20,31 @@
     justify-content: center;
     z-index: 11;
     position: fixed;
+    opacity: 1;
     right: 0;
-    background-color: #4da8da;
-    transition: width 0.5s;
+    background-color: black;
+    transition: opacity 0.5s, width 0.5s;
 }
 
 #sidebar a {
     text-decoration: none;
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-    margin: 1.5vw 0 1.5vw 0;
+    font-size: 7vw;
+    margin: 0 0 0 0;
     padding: 1vw;
     width: 90%;
-    text-align: center;
-    border-radius: 5vw;
+    text-align: left;
+    -webkit-text-stroke-width: 0.2vw;
+    -webkit-text-stroke-color: white;
+    color: transparent;
+    font-weight: 800;
     white-space: nowrap;
-    transition: background-color 0.2s;
+    transition: opacity 0.2s, color 0.2s;
 }
 
 #sidebar a:hover {
-    background-color: #428eb8;
+    color: white;
 }
 
 #close-button {
@@ -52,9 +56,32 @@
     top: 5vw;
     left: 5vw;
     cursor: pointer;
-    transition: background-color 0.2s;
+    transition: opacity 0.2s, color 0.2s;
 }
 
 #close-button:hover {
-    background-color: #428eb8;
+    color: rgba(255, 255, 255, 0.514);
+}
+
+#header {
+    margin-bottom: 8vw;
+    margin-left: 5vw;
+}
+
+#header h1 {
+    font-size: 10vw;
+    -webkit-text-stroke-width: 0.4vw;
+}
+
+#header p {
+    font-size: 3vw;
+    width: 90%;
+    margin-top: 1.5vw;
+    margin-bottom: 5vw;
+}
+
+#header a {
+    font-size: 3vw;
+    border-radius: 3vw;
+    padding: 1vw 3vw 1vw 3vw;
 }

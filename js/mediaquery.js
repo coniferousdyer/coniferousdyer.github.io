@@ -1,11 +1,9 @@
 function changeFeatures(x) {
     if (x.matches) {
-        $('nav').html("<div onclick='openSidebar()' id='hamburger-icon'>&#9776;</div>");
+        $('#header p').html("I am a Computer Science and Engineering student at International Institute of Technology, Hyderabad, India. I am passionate about coding and development.");
     }
     else {
-        $('nav').html(
-            '<a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a><a href="#">About</a><a href="#">Skills</a><a href="#">Projects</a><a href="#">Contact</a><a href="#">Social Media</a>'
-        );
+        $('#header p').html("I am a Computer Science and Engineering student at International Institute of Technology, Hyderabad, India. I am passionate about coding, development and using my skills to solve real-world problems. I am always looking to broaden my horizons. When I am not coding, I am usually playing a game of FIFA or humming to Avicii.");
     }
 }
 
