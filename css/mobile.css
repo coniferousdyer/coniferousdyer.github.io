@@ -72,11 +72,13 @@
 #social-media-buttons {
     left: 35vw;
     bottom: 5vw;
+    display: flex;
+    flex-direction: row;
 }
 
 .sm {
     font-size: 6vw;
     margin-left: 1vw;
-    width: 9.5vw;
+    width: 10.5vw;
     padding: 2vw;
 }
