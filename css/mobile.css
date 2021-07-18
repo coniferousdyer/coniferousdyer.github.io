@@ -45,7 +45,7 @@
     border-radius: 5vw;
     white-space: nowrap;
     opacity: 0;
-    transition: opacity 0.2s, color 0.2s;
+    transition: opacity 0.2s, color 0.3s;
 }
 
 #sidebar a:hover {
@@ -67,4 +67,16 @@
 #close-button:hover {
     background-color: white;
     color: black;
+}
+
+#social-media-buttons {
+    left: 35vw;
+    bottom: 5vw;
+}
+
+.sm {
+    font-size: 6vw;
+    margin-left: 1vw;
+    width: 9.5vw;
+    padding: 2vw;
 }
