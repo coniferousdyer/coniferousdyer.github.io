@@ -86,8 +86,10 @@ nav .fa {
 
 #social-media-buttons {
     position: absolute;
-    bottom: 1vw;
+    bottom: 22vw;
     right: 1vw;
+    display: flex;
+    flex-direction: column;
     opacity: 0;
     transition: opacity 0.5s;
 }
@@ -99,6 +101,8 @@ nav .fa {
     font-size: 1.5vw;
     text-align: center;
     border-radius: 50%;
+    margin-bottom: 0.5vw;
+    border: 0.1vw solid white;
     color: white;
     transition: color 0.3s, background-color 0.3s;
 }
