@@ -17,9 +17,50 @@
 </head>
 
 <body>
+    <nav>
+        <a href="#"><i class="fa fa-home" aria-hidden="true"></i></a>
+        <a href="#">ABOUT</a>
+        <a href="#">SKILLS</a>
+        <a href="#">PROJECTS</a>
+        <a href="#">CONTACTS</a>
+    </nav>
+    <div id="sidebar">
+        <div onclick="closeSidebar()" id="close-button">&#10006;</div>
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">SKILLS</a>
+        <a href="#">PROJECTS</a>
+        <a href="#">CONTACT</a>
+    </div>
+    <script src="../js/sidebar.js"></script>
+
+    <div id="social-media-buttons">
+        <a href="https://github.com/coniferousdyer" target="_blank" class="sm fa fa-github"></a>
+        <a href="https://www.linkedin.com/in/arjun-muraleedharan-2a10091bb" target="_blank" class="sm fa fa-linkedin"></a>
+        <a href="https://www.facebook.com/arjun.muraleedharan.5" target="_blank" class="sm fa fa-facebook"></a>
+    </div>
+
     <div id="projects-header">
         <h1>PROJECTS</h1>
+        <div id="laptop">
+            <div id="monitor">
+                <div id="top-bar"></div>
+                <div id="screen">
+                    <div id="project-description">
+                        <h3>ASCII SPACEWARS</h3>
+                        <p>A terminal-based space combat game built using C++ and the ncurses library.</p>
+                    </div>
+                </div>
+                <div id="button"></div>
+            </div>
+            <div id="keyboard">
+                <div id="touchpad"></div>
+            </div>
+        </div>
     </div>
+
+    <script src="../js/general.js"></script>
+    <script src="../js/mediaquery.js"></script>
 </body>
 
 </html>

@@ -11,3 +11,185 @@ body {
     padding: 0;
     background-color: black;
 }
+
+#projects-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects-header h1 {
+    font-family: 'Anton', sans-serif;
+    visibility: visible;
+    color: transparent;
+    margin: 0;
+    font-size: 6vw;
+    text-align: center;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.1vw;
+    letter-spacing: 2vw;
+    position: absolute;
+    bottom: 33vw;
+    margin-left: 3vw;
+    cursor: default;
+    transition: color 0.3s;
+}
+
+#projects-header h1:hover {
+    color: white;
+}
+
+#laptop {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#laptop #monitor {
+    width: 55vw;
+    height: 32vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vw;
+    border: 0.1vw solid white;
+}
+
+#laptop #monitor #screen {
+    width: 53vw;
+    height: 30vw;
+    background-color: black;
+    border-radius: 0.5vw;
+    position: relative;
+    border: 0.1vw solid white;
+    background-image: url(../images/AS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#laptop #keyboard {
+    width: 60vw;
+    height: 1.7vw;
+    background-color: black;
+    margin-top: 0.1vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 1vw 1vw;
+    border: 0.1vw solid white;
+}
+
+#laptop #keyboard #touchpad {
+    background-color: black;
+    border: 0.1vw solid white;
+    height: 0.7vw;
+    width: 10vw; 
+    border-radius: 0 0 0.5vw 0.5vw;
+}
+
+#button, #top-bar {
+    visibility: hidden;
+}
+
+nav {
+    position: fixed;
+    width: 97%;
+    display: flex;
+    justify-content: right;
+    margin-right: 1vw;
+    margin-top: 2vw;
+    top: 0;
+    z-index: 2;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 0 0 2vw;
+    border-radius: 1.5vw;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1vw;
+    font-weight: 800;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+nav .fa {
+    font-size: 1.3vw;
+}
+
+#sidebar {
+    display: none;
+}
+
+#social-media-buttons {
+    position: absolute;
+    bottom: 42%;
+    right: 1vw;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.sm {
+    padding: 0.5vw;
+    text-decoration: none;
+    width: 2.6vw;
+    font-size: 1.5vw;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 0.5vw;
+    border: 0.1vw solid white;
+    color: white;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.sm:hover {
+    background-color: white;
+}
+
+.fa-facebook:hover {
+    color: #3B5998;
+}
+
+.fa-linkedin:hover {
+    color: #007bb5;
+}
+
+.fa-github:hover {
+    color: black;
+}
+
+#project-description {
+    position: absolute;
+    bottom: 0;
+    cursor: default;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+}
+
+#project-description h3 {
+    color: white;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 2vw;
+    margin-left: 1.5vw;
+}
+
+#project-description p {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-top: 0;
+    font-size: 1vw;
+    margin-left: 1.5vw;
+}
