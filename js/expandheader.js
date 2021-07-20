@@ -7,3 +7,10 @@ function expandHeader() {
         }, 2000);
     }, 500);
 }
+
+function expandRest() {
+    setTimeout(() => {
+        $('nav').css("opacity", "1")
+        $('#social-media-buttons').css("opacity", "1")
+    }, 1500);
+}

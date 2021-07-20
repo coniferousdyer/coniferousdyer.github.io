@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
 #projects-header h1 {
@@ -30,7 +31,7 @@ body {
     -webkit-text-stroke-width: 0.1vw;
     letter-spacing: 2vw;
     margin-left: 3vw; 
-    cursor: pointer;
+    cursor: default;
     transition: color 0.3s;
 }
 
@@ -99,6 +100,7 @@ body {
 }
 
 nav {
+    background-color: transparent;
     position: fixed;
     width: 97%;
     display: flex;
@@ -107,8 +109,8 @@ nav {
     margin-top: 2vw;
     top: 0;
     z-index: 2;
-    opacity: 1;
-    transition: opacity 0.5s;
+    opacity: 0;
+    transition: background-color 0.3s, margin-top 0.3s, opacity 0.5s;
 }
 
 nav a {
@@ -137,12 +139,12 @@ nav .fa {
 }
 
 #social-media-buttons {
-    position: absolute;
+    position: fixed;
     bottom: 42%;
     right: 1vw;
     display: flex;
     flex-direction: column;
-    opacity: 1;
+    opacity: 0;
     transition: opacity 0.5s;
 }
 
@@ -197,4 +199,8 @@ nav .fa {
     margin-top: 0;
     font-size: 1vw;
     margin-left: 1.5vw;
+}
+
+section {
+    height: 100vh;
 }

@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="../css/rest.css">
     <link rel="stylesheet" media="screen and (max-width: 480px) and (orientation:portrait)"
         href="../css/restmobile.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Projects</title>
 </head>
 
-<body>
+<body onload="expandRest()">
     <nav>
         <a href="#"><i class="fa fa-home" aria-hidden="true"></i></a>
         <a href="#">ABOUT</a>
@@ -42,7 +43,7 @@
     </div>
 
     <div id="projects-header">
-        <div id="laptop">
+        <div data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500" id="laptop">
             <div id="monitor">
                 <div id="top-bar"></div>
                 <div id="screen">
@@ -57,10 +58,17 @@
         </div>
     </div>
 
+    <section></section>
+
     <script src="../js/general.js"></script>
+    <script src="../js/expandheader.js"></script>
     <script src="../js/mediaquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.31.1/tsparticles.min.js"></script>
     <script src="../js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
