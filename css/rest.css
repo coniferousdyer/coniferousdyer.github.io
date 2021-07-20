@@ -145,6 +145,7 @@ nav .fa {
     display: flex;
     flex-direction: column;
     opacity: 0;
+    z-index: 2;
     transition: opacity 0.5s;
 }
 
@@ -203,4 +204,58 @@ nav .fa {
 
 section {
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
+
+.projects-page img {
+    width: 45vw;
+    margin-left: 5vw;
+    border: 0.1vw solid white;
+}
+
+.projects-page .description {
+    height: 24vw;
+    margin-left: 3vw;
+}
+
+.projects-page .description h1 {
+    color: transparent;
+    width: 80%;
+    line-height: 5vw;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.1vw;
+    font-family: 'Anton', sans-serif;
+    font-size: 4vw;
+    cursor: default;
+    margin: 0;
+    transition: color 0.3s;
+}
+
+.projects-page .description h1:hover {
+    color: white;
+}
+
+.projects-page .description p {
+    color: white;
+    width: 80%;
+    font-family: 'Karla', sans-serif;
+    font-size: 1vw;
+    margin-bottom: 3vw;
+}
+
+.projects-page .description a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 1vw;
+    border: 0.1vw solid white;
+    padding: 1vw;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.projects-page .description a:hover {
+    color: black;
+    background-color: white;
+}
+    
