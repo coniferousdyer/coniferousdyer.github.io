@@ -18,6 +18,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    margin-bottom: 10vw;
 }
 
 #projects-header h1 {
@@ -203,7 +204,7 @@ nav .fa {
 }
 
 section {
-    height: 100vh;
+    height: 60vh;
     display: flex;
     align-items: center;
 }
