@@ -145,3 +145,31 @@
     width: 10.5vw;
     padding: 2vw;
 }
+
+section {
+    flex-direction: column;
+    height: 75vh;
+}
+
+.projects-page img {
+    width: 75vw;
+}
+
+.projects-page .description {
+    margin-top: 5vw;
+    margin-left: 15vw;
+}
+
+.projects-page .description h1 {
+    font-size: 7vw;
+    line-height: 8vw;
+}
+
+.projects-page .description p {
+    font-size: 2.5vw;
+}
+
+.projects-page .description a {
+    font-size: 2.5vw;
+    padding: 2vw;
+}

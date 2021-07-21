@@ -4,7 +4,7 @@ window.onscroll = () => {
     let currentPos = window.pageYOffset;
 
     if (prevPos < currentPos) {
-        $('nav').css("margin-top", "-5vw")
+        $('nav').css("margin-top", "-10vw")
     }
     else {
         $('nav').css("margin-top", "2vw")
