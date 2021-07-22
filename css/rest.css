@@ -313,6 +313,7 @@ section {
 .fa-envelope-o {
     color: white;
     font-size: 3vw;
+    margin-right: 1.5vw;
 }
 
 #contact-sm i {
@@ -320,8 +321,8 @@ section {
     border: 0.2vw solid white;
     border-radius: 50%;
     font-size: 5vw;
-    padding: 2vw;
-    width: 9vw;
+    padding: 1.5vw;
+    width: 8vw;
     text-align: center;
 }
 
