@@ -261,3 +261,94 @@ section {
     background-color: white;
 }
     
+#tsparticles {
+    height: 99vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-header {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact-header h1 {
+    color: transparent;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.1vw;
+    font-family: 'Anton', sans-serif;
+    font-size: 6vw;
+    cursor: default;
+    margin: 0;
+    transition: color 0.3s;
+}
+
+#contact-header h1:hover {
+    color: white;
+}
+
+#contact-header p {
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5vw;
+}
+
+#contact-header a {
+    color: transparent;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.05vw;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 3vw;
+    transition: color 0.3s;
+}
+
+#contact-header a:hover {
+    color: white;
+}
+
+.fa-envelope-o {
+    color: white;
+    font-size: 3vw;
+}
+
+#contact-sm i {
+    color: white;
+    border: 0.2vw solid white;
+    border-radius: 50%;
+    font-size: 5vw;
+    padding: 2vw;
+    width: 9vw;
+    text-align: center;
+}
+
+#contact-header span {
+    text-decoration: underline;
+}
+
+#contact-header .fa-github {
+    transition: background-color 0.3s;
+}
+
+#contact-header .fa-facebook {
+    transition: background-color 0.3s;
+}
+
+#contact-header .fa-linkedin {
+    transition: background-color 0.3s;
+}
+
+#contact-header .fa-github:hover {
+    background-color: #333;
+}
+
+#contact-header .fa-facebook:hover {
+    background-color: #3B5998;
+}
+
+#contact-header .fa-linkedin:hover {
+    background-color: #007bb5;
+}

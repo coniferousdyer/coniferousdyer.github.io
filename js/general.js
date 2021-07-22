@@ -19,3 +19,11 @@ window.onscroll = () => {
         $('nav').css("background-color", "transparent")
     }
 }
+
+function addCSMName(name) {
+    document.getElementById("csm-name").innerHTML = name;
+}
+
+function removeCSMName() {
+    document.getElementById("csm-name").innerHTML = "";
+}
