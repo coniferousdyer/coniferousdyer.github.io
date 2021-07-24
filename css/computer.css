@@ -117,3 +117,67 @@ section {
     visibility: hidden;
     font-size: 0.8vw;
 }
+
+#contact-bg {
+    background-image: url(../images/scenery.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#contact {
+    background-color: rgba(255, 255, 255, 0.514);
+    display: flex;
+    justify-content: flex-start;
+    background-image: repeating-linear-gradient(-45deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 1px, transparent 6px);
+    background-size: 8px 8px;
+}
+
+#contact-overlay {
+    background-color: white;
+    height: 100%;
+    width: 50%;
+}
+
+#contact-overlay h1 {
+    margin: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 7vw;
+    margin-left: 8vw;
+    margin-top: 6vw;
+    cursor: default;
+}
+
+#contact-overlay p {
+    margin-left: 8vw;
+    width: 60%;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 2vw;
+    font-size: 1.3vw;
+}
+
+#social-media-group-contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8vw;
+    margin-top: 3vw;
+}
+
+.fa {
+    font-size: 2vw;
+    width: 2.5vw;
+    margin-bottom: 1vw;
+}
+
+.link {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.link span {
+    font-size: 1.2vw;
+    font-family: 'Lato', sans-serif;
+    margin-left: 0.6vw;
+    margin-top: 0.2vw;
+}
