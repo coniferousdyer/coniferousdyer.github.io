@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -180,4 +184,16 @@ section {
     font-family: 'Lato', sans-serif;
     margin-left: 0.6vw;
     margin-top: 0.2vw;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-linkedin-square {
+    color: #007bb5;
+}
+
+.fa-envelope {
+    color: #e34234;
 }
