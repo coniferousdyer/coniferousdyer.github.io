@@ -130,7 +130,6 @@ section {
 }
 
 #contact {
-    background-color: rgba(255, 255, 255, 0.514);
     display: flex;
     justify-content: flex-start;
     background-image: repeating-linear-gradient(-45deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 1px, transparent 6px);
@@ -141,6 +140,9 @@ section {
     background-color: white;
     height: 100%;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #contact-overlay h1 {
@@ -148,7 +150,7 @@ section {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 7vw;
     margin-left: 8vw;
-    margin-top: 6vw;
+    margin-top: -3vw;
     cursor: default;
 }
 
@@ -164,7 +166,7 @@ section {
     display: flex;
     flex-direction: column;
     margin-left: 8vw;
-    margin-top: 3vw;
+    margin-top: 1.5vw;
 }
 
 .fa {
