@@ -213,8 +213,10 @@ section {
 
 #skills-content {
     width: 80%;
-    height: 70%;
     border-left: 0.15vw solid #66fcf1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #skills-content h1 {
@@ -230,6 +232,7 @@ section {
 }
 
 .skillbox {
+    border-radius: 2vw;
     width: 90%;
     border: 0.15vw solid #66fcf1;
     margin-left: 8vw;
@@ -238,6 +241,7 @@ section {
 
 .skillbar {
     padding-top: 0.5vw;
+    border-radius: 2vw 0 0 2vw;
     padding-bottom: 0.5vw;
     background-color: #66fcf1;
     font-family: 'Roboto Condensed', sans-serif;
@@ -245,18 +249,19 @@ section {
     font-weight: 700;
     text-align: right;
     padding-right: 1vw;
+    font-size: 0.8vw;
 }
 
 .skill img {
     width: 3vw;
     position: absolute;
     left: 4vw;
-    top: -0.5vw;
+    top: 2.5vw;
 }
 
 .title {
     position: absolute;
-    top: -1.5vw;
+    top: 1.5vw;
     left: 8vw;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1vw;
