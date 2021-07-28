@@ -199,3 +199,14 @@ section {
 .fa-envelope {
     color: #e34234;
 }
+
+#skills-bg {
+    background-image: url(../images/Code_background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#skills {
+    background-color: #45a29dce;
+}
