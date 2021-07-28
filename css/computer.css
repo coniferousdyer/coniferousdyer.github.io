@@ -210,3 +210,75 @@ section {
 #skills {
     background-color: #45a29dce;
 }
+
+#skills-content {
+    width: 80%;
+    height: 70%;
+    border-left: 0.15vw solid #66fcf1;
+}
+
+#skills-content h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #66fcf1;
+    font-size: 6vw;
+    margin: 0;
+    margin-left: 4vw;
+}
+
+.skill {
+    position: relative;
+}
+
+.skillbox {
+    width: 90%;
+    border: 0.15vw solid #66fcf1;
+    margin-left: 8vw;
+    margin-top: 3.2vw;
+}
+
+.skillbar {
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    background-color: #66fcf1;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 1vw;
+}
+
+.skill img {
+    width: 3vw;
+    position: absolute;
+    left: 4vw;
+    top: -0.5vw;
+}
+
+.title {
+    position: absolute;
+    top: -1.5vw;
+    left: 8vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1vw;
+    color: white;
+}
+
+#cpp {
+    width: 80%;
+}
+
+#html {
+    width: 80%;
+}
+
+#css {
+    width: 75%;
+}
+
+#js {
+    width: 65%;
+}
+
+#python {
+    width: 65%;
+}
