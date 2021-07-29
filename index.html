@@ -14,6 +14,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/computer.css">
     <link rel="stylesheet" media="screen and (max-width: 480px) and (orientation:portrait)" href="css/mobile.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/themes/splide-sea-green.min.css">
     <title>Arjun Muraleedharan</title>
 </head>
 
@@ -45,51 +47,80 @@
         </section>
     </div>
 
-    <div id="skills-bg">
-        <section id="skills">
-            <div id="skills-content">
-                <h1>SKILLS</h1>
-                <div class="skill">
-                    <img src="images/CPP.png">
-                    <div class="title">C/C++</div>
-                    <div class="skillbox">
-                        <div class="skillbar" id="cpp">80%</div>
-                    </div>
+    <section id="skills">
+        <div id="skills-content">
+            <h1>SKILLS</h1>
+            <div class="skill">
+                <img src="images/CPP.png">
+                <div class="title">C/C++</div>
+                <div class="skillbox">
+                    <div class="skillbar" id="cpp">80%</div>
                 </div>
-                <div class="skill">
-                    <img src="images/HTML.png">
-                    <div class="title">HTML5</div>
-                    <div class="skillbox">
-                        <div class="skillbar" id="html">80%</div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <img src="images/CSS.png">
-                    <div class="title">CSS3</div>
-                    <div class="skillbox">
-                        <div class="skillbar" id="css">75%</div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <img src="images/JS.png">
-                    <div class="title">Javascript</div>
-                    <div class="skillbox">
-                        <div class="skillbar" id="js">65%</div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <img src="images/Python.png">
-                    <div class="title">Python</div>
-                    <div class="skillbox">
-                        <div class="skillbar" id="python">65%</div>
-                    </div>
-                </div>
-                <div class="ignore">Filler text - to be ignored</div>
             </div>
-        </section>
-    </div>
+            <div class="skill">
+                <img src="images/HTML.png">
+                <div class="title">HTML5</div>
+                <div class="skillbox">
+                    <div class="skillbar" id="html">80%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="images/CSS.png">
+                <div class="title">CSS3</div>
+                <div class="skillbox">
+                    <div class="skillbar" id="css">75%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="images/JS.png">
+                <div class="title">Javascript</div>
+                <div class="skillbox">
+                    <div class="skillbar" id="js">65%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="images/Python.png">
+                <div class="title">Python</div>
+                <div class="skillbox">
+                    <div class="skillbar" id="python">65%</div>
+                </div>
+            </div>
+            <div class="ignore">Filler text - to be ignored</div>
+        </div>
+    </section>
 
-    <section id="projects"></section>
+    <section id="projects">
+        <h1>PROJECTS</h1>
+        <div id="image-slider" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="images/FRS.png">
+                        <h3>FRIENDS RECOMMENDATION SYSTEM</h3>
+                        <p>A basic social network (dubbed "Spacebook" by us) which stores details of users and
+                            recommends friends to users based on common
+                            parameters.</p>
+                        <div class="splide_link_container">
+                            <a href="#">VIEW ON GITHUB</a>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="images/AS.png">
+                        <h3>ASCII SPACEWARS</h3>
+                        <p>ASCII Spacewars is a terminal-based space combat game, similar to the 1978 video game Space
+                            Invaders.
+                            This was built using C++.</p>
+                        <div class="splide_link_container">
+                            <a href="#">VIEW ON GITHUB</a>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="images/Code_background.jpeg">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
     <div id="contact-bg">
         <section id="contact">
@@ -122,6 +153,18 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.31.1/tsparticles.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script>
+        new Splide('#image-slider', {
+            width: '90vw',
+            height: '30vw',
+            type: 'loop',
+            perPage: 3,
+            focus: 'center',
+            cover: true,
+            heightRatio: 0.5,
+        }).mount();
+    </script>
 </body>
 
 </html>

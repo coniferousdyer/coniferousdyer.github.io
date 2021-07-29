@@ -200,15 +200,8 @@ section {
     color: #e34234;
 }
 
-#skills-bg {
-    background-image: url(../images/Code_background.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 #skills {
-    background-color: #45a29dce;
+    background: linear-gradient(110deg, #2b7a78 60%, #3aafa9 60%);
 }
 
 #skills-content {
@@ -286,4 +279,52 @@ section {
 
 #python {
     width: 65%;
+}
+
+#projects {
+    flex-direction: column;
+}
+
+#projects h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 6vw;
+    margin: 0;
+}
+
+.splide__slide {
+    margin-left: 0.5vw !important;
+    margin-right: 0.5vw !important;
+    border-radius: 1vw !important;
+}
+
+.splide__slide h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 0;
+    font-size: 1.7vw;
+    text-align: center;
+    margin-top: 17.5vw;
+}
+
+.splide__slide p {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-align: center;
+    margin-bottom: 1.2vw;
+    font-size: 1vw;
+}
+
+.splide_link_container {
+    display: flex;
+    justify-content: center;
+}
+
+.splide__slide a {
+    text-decoration: none;
+    border: 0.15vw solid black;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0.8vw;
+    font-weight: 1000;
+    font-size: 0.9vw;
 }
