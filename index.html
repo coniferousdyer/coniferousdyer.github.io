@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/computer.css">
+    <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" media="screen and (max-width: 480px) and (orientation:portrait)" href="css/mobile.css">
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/themes/splide-sea-green.min.css">
@@ -22,8 +24,8 @@
 <body>
     <section id="home">
         <div id="header">
-            <h3>HI, MY NAME IS</h3>
-            <h1>ARJUN</h1>
+            <h3 data-aos="fade-in" data-aos-delay="500">HI, MY NAME IS</h3>
+            <h1 data-aos="fade-in" data-aos-delay="1500">ARJUN</h1>
         </div>
     </section>
 
@@ -41,7 +43,7 @@
                     humming to Avicii. Currently, I am exploring web development and computer systems.</p>
                 <img src="images/Transparent_background.png" id="img-background">
                 <img src="images/profile_picture.jpeg">
-                <a href="#contact">REACH OUT TO ME <span>&#8594;</span></a>
+                <a href="#contact" data-aos="fade-in" data-aos-delay="1000">REACH OUT TO ME <span>&#8594;</span></a>
                 <div class="ignore">Filler text - to be ignored</div>
             </div>
         </section>
@@ -51,38 +53,38 @@
         <div id="skills-content">
             <h1>SKILLS</h1>
             <div class="skill">
-                <img src="images/CPP.png">
-                <div class="title">C/C++</div>
+                <img src="images/CPP.png" data-aos="flip-right" data-aos-delay="500">
+                <div class="title" data-aos="fade-right" data-aos-delay="500">C/C++</div>
                 <div class="skillbox">
-                    <div class="skillbar" id="cpp">80%</div>
+                    <div data-aos="fill-bar-80" data-aos-delay="1000" data-aos-duration="1000" class="skillbar" id="cpp">80%</div>
                 </div>
             </div>
             <div class="skill">
-                <img src="images/HTML.png">
-                <div class="title">HTML5</div>
+                <img src="images/HTML.png" data-aos="flip-right" data-aos-delay="500">
+                <div class="title" data-aos="fade-right" data-aos-delay="500">HTML5</div>
                 <div class="skillbox">
-                    <div class="skillbar" id="html">80%</div>
+                    <div data-aos="fill-bar-80" data-aos-delay="1000" data-aos-duration="1000" class="skillbar" id="html">80%</div>
                 </div>
             </div>
             <div class="skill">
-                <img src="images/CSS.png">
-                <div class="title">CSS3</div>
+                <img src="images/CSS.png" data-aos="flip-right" data-aos-delay="500">
+                <div class="title" data-aos="fade-right" data-aos-delay="500">CSS3</div>
                 <div class="skillbox">
-                    <div class="skillbar" id="css">75%</div>
+                    <div data-aos="fill-bar-75" data-aos-delay="1000" data-aos-duration="1000" class="skillbar" id="css">75%</div>
                 </div>
             </div>
             <div class="skill">
-                <img src="images/JS.png">
-                <div class="title">Javascript</div>
+                <img src="images/JS.png" data-aos="flip-right" data-aos-delay="500">
+                <div class="title" data-aos="fade-right" data-aos-delay="500">Javascript</div>
                 <div class="skillbox">
-                    <div class="skillbar" id="js">65%</div>
+                    <div data-aos="fill-bar-65" data-aos-delay="1000" data-aos-duration="1000" class="skillbar" id="js">65%</div>
                 </div>
             </div>
             <div class="skill">
-                <img src="images/Python.png">
-                <div class="title">Python</div>
+                <img src="images/Python.png" data-aos="flip-right" data-aos-delay="500">
+                <div class="title" data-aos="fade-right" data-aos-delay="500">Python</div>
                 <div class="skillbox">
-                    <div class="skillbar" id="python">65%</div>
+                    <div data-aos="fill-bar-65" data-aos-delay="1000" data-aos-duration="1000" class="skillbar" id="python">65%</div>
                 </div>
             </div>
             <div class="ignore">Filler text - to be ignored</div>
@@ -100,7 +102,7 @@
                         <p>A basic social network (dubbed "Spacebook" by us) which stores details of users and
                             recommends friends to users based on common
                             parameters.</p>
-                        <div class="splide_link_container">
+                        <div class="splide_link_container" data-aos="zoom-in" data-aos-delay="500">
                             <a href="#">VIEW ON GITHUB</a>
                         </div>
                     </li>
@@ -110,7 +112,7 @@
                         <p>ASCII Spacewars is a terminal-based space combat game, similar to the 1978 video game Space
                             Invaders.
                             This was built using C++.</p>
-                        <div class="splide_link_container">
+                        <div class="splide_link_container" data-aos="zoom-in" data-aos-delay="500">
                             <a href="#">VIEW ON GITHUB</a>
                         </div>
                     </li>
@@ -130,19 +132,19 @@
                 <p>Want to reach out to me? You can contact me via email or any of my social media profiles, listed
                     below.</p>
                 <div id="social-media-group-contact">
-                    <a class="link" href="mailto: arjun.muraleedharan@students.iiit.ac.in" target="_blank">
+                    <a data-aos="zoom-in" data-aos-delay="500" class="link" href="mailto: arjun.muraleedharan@students.iiit.ac.in" target="_blank">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <span>arjun.muraleedharan@students.iiit.ac.in<span>
                     </a>
-                    <a class="link" href="https://github.com/coniferousdyer" target="_blank">
+                    <a data-aos="zoom-in" data-aos-delay="700" class="link" href="https://github.com/coniferousdyer" target="_blank">
                         <i class="fa fa-github" aria-hidden="true"></i>
                         <span>https://github.com/coniferousdyer</span>
                     </a>
-                    <a class="link" href="https://www.linkedin.com/in/arjun-muraleedharan-2a10091bb" target="_blank">
+                    <a data-aos="zoom-in" data-aos-delay="900" class="link" href="https://www.linkedin.com/in/arjun-muraleedharan-2a10091bb" target="_blank">
                         <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                         <span>https://www.linkedin.com/in/arjun-muraleedharan-2a10091bb</span>
                     </a>
-                    <a class="link" href="https://www.facebook.com/arjun.muraleedharan.5" target="_blank">
+                    <a data-aos="zoom-in" data-aos-delay="1100" class="link" href="https://www.facebook.com/arjun.muraleedharan.5" target="_blank">
                         <i class="fa fa-facebook-square" aria-hidden="true"></i>
                         <span>https://www.facebook.com/arjun.muraleedharan.5</span>
                     </a>
@@ -164,6 +166,10 @@
             cover: true,
             heightRatio: 0.5,
         }).mount();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 

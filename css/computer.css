@@ -261,27 +261,9 @@ section {
     color: white;
 }
 
-#cpp {
-    width: 80%;
-}
-
-#html {
-    width: 80%;
-}
-
-#css {
-    width: 75%;
-}
-
-#js {
-    width: 65%;
-}
-
-#python {
-    width: 65%;
-}
-
 #projects {
+    background-image: repeating-linear-gradient(-45deg, #3aafa9, rgba(255,255,255, 0.25) 1px, transparent 1px, transparent 6px);
+    background-size: 8px 8px;
     flex-direction: column;
 }
 
