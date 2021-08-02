@@ -108,6 +108,12 @@ section {
     letter-spacing: 0.15vw;
     margin-left: 4vw;
     text-underline-offset: 0.5vw;
+    transition: color 0.3s, text-underline-offset 0.3s;
+}
+
+#about-container a:hover {
+    color: #2b7a78;
+    text-underline-offset: 0.2vw;
 }
 
 #img-background {
@@ -167,6 +173,18 @@ section {
     flex-direction: column;
     margin-left: 8vw;
     margin-top: 1.5vw;
+}
+
+#social-media-group-contact a span {
+    text-decoration: underline;
+    text-underline-offset: 0.5vw;
+    text-decoration-color: transparent;
+    transition: text-decoration 0.3s, color 0.3s;
+}
+
+#social-media-group-contact a:hover span {
+    text-decoration: underline;
+    color: #2b7a78;
 }
 
 .fa {
@@ -309,4 +327,10 @@ section {
     padding: 0.8vw;
     font-weight: 1000;
     font-size: 0.9vw;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.splide__slide a:hover {
+    background-color: black;
+    color: white;
 }
