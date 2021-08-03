@@ -79,3 +79,109 @@
     color: #66fcf1;
     border: 0.5vw solid #66fcf1;
 }
+
+#skills-content h1 {
+    font-size: 9vw;
+    margin-bottom: 3vw;
+}
+
+.title {
+    font-size: 4vw;
+    top: -2vw;
+    margin-left: 4vw;
+}
+
+.skillbox {
+    width: 80%;
+    margin-left: 12vw;
+}
+
+.skill {
+    margin: 3vw 0;
+}
+
+.skill img {
+    width: 6vw;
+}
+
+.skillbar {
+    font-size: 3vw;
+}
+
+#projects h1 {
+    font-size: 9vw;
+    margin-bottom: -10vw;
+}
+
+.splide__slide {
+    width: 20vw !important;
+    height: 90vw !important;
+}
+
+.splide__slide h3 {
+    margin-top: 47vw;
+    font-size: 2.8vw;
+}
+
+.splide__slide p {
+    font-size: 2vw;
+}
+
+.splide__slide a {
+    font-size: 2vw;
+    position: absolute;
+    bottom: 2vw;
+}
+
+#contact {
+    justify-content: center;
+}
+
+#contact-overlay {
+    height: 60%;
+    width: 65%;
+}
+
+#contact-overlay h1 {
+    font-size: 10vw;
+}
+
+#contact-overlay p {
+    font-size: 3vw;
+    line-height: 3.5vw;
+}
+
+#social-media-group-contact a span {
+    font-size: 2.5vw;
+}
+
+.fa {
+    font-size: 3vw;
+    margin-right: 2vw;
+}
+
+#about-container h1 {
+    font-size: 9vw;
+}
+
+#about-container h6 {
+    font-size: 2vw;
+}
+
+#about-container p {
+    font-size: 3vw;
+    line-height: 5vw;
+    width: 95%;
+}
+
+#about-container img {
+    display: none;
+}
+
+#img-background {
+    display: none;
+}
+
+#about-container a {
+    font-size: 2.5vw;
+}

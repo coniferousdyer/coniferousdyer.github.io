@@ -81,6 +81,7 @@ section {
     font-size: 6vw;
     margin: 0;
     margin-left: 4vw;
+    cursor: default;
 }
 
 #about-container p {
