@@ -380,3 +380,7 @@ nav ul li a:hover {
     color: #66fcf1;
     border-bottom: 0.2vw solid #66fcf1;
 }
+
+#sidebar {
+    display: none;
+}
