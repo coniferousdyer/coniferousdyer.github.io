@@ -21,7 +21,17 @@
     <title>Arjun Muraleedharan</title>
 </head>
 
-<body>
+<body onload="fadeInNavbar()">
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
     <section id="home">
         <div id="header">
             <h3 data-aos="fade-in" data-aos-delay="500" data-aos-anchor-placement="top-bottom">HI, MY NAME IS</h3>
@@ -145,7 +155,7 @@
     <div id="contact-bg">
         <section id="contact">
             <div id="contact-overlay">
-                <div  data-aos="fade-in" data-aos-delay="500" data-aos-anchor-placement="top-bottom">
+                <div data-aos="fade-in" data-aos-delay="500" data-aos-anchor-placement="top-bottom">
                     <h1>CONNECT</h1>
                     <h1 style="margin-top: -2vw;">WITH ME</h1>
                 </div>
@@ -182,6 +192,7 @@
         </section>
     </div>
 
+    <script src="js/navbar.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.31.1/tsparticles.min.js"></script>
     <script src="js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>

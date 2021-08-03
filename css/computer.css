@@ -334,3 +334,49 @@ section {
     background-color: black;
     color: white;
 }
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+#navbar {
+    top: 0;
+    background-color: transparent;
+    opacity: 0;
+    transition: top 0.3s, background-color 0.3s, opacity 0.3s;
+}
+
+nav ul {
+    margin-top: 1.3vw;
+    list-style: none;
+    text-align: right;
+    margin-right: 2vw;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.78125vw;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 0.52083vw;
+    letter-spacing: 0.05vw;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.85vw;
+}
+
+nav ul li a {
+    border-bottom: 0.2vw solid transparent;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+nav ul li a:hover {
+    color: #66fcf1;
+    border-bottom: 0.2vw solid #66fcf1;
+}
