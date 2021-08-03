@@ -236,6 +236,7 @@ section {
     font-size: 6vw;
     margin: 0;
     margin-left: 4vw;
+    cursor: default;
 }
 
 .skill {
@@ -289,6 +290,7 @@ section {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 6vw;
     margin: 0;
+    cursor: default;
 }
 
 .splide__slide {
