@@ -26,7 +26,7 @@ function fadeInNavbar() {
 
 function changeFeatures(x) {
     if (x.matches) {
-        document.getElementById("navbar").innerHTML = "<div onclick='openSidebar()' id='hamburger-icon'>&#9776;</div>"
+        document.getElementById("navbar").innerHTML = "<div onclick='openSidebar()' id='hamburger-icon'><div class=\"hg\"></div><div class=\"hg\"></div><div class=\"hg\"></div></div>"
     }
     else {
         document.getElementById("navbar").innerHTML = "<ul><li><a href=\"#home\">HOME</a></li><li><a href=\"#about\">ABOUT</a></li><li><a href=\"#skills\">SKILLS</a></li><li><a href=\"#projects\">PROJECTS</a></li><li><a href=\"#contact\">CONTACT</a></li></ul>";

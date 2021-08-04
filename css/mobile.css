@@ -15,14 +15,26 @@
     border: 0.5vw solid transparent;
     cursor: pointer;
     transition: color 0.3s, border 0.3s;
-    color: white;
     font-size: 8vw;
     margin: 1vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.hg {
+    width: 5vw;
+    height: 0.8vw;
+    background-color: white;
+    margin: 1vw 0;
+    transition: background-color 0.3s;
 }
 
 #hamburger-icon:hover {
     border: 0.5vw solid #66fcf1;
-    color: #66fcf1;
+}
+
+#hamburger-icon:hover .hg {
+    background-color: #66fcf1;
 }
 
 #sidebar {
@@ -62,12 +74,13 @@
 }
 
 #close-button {
+    font-family: 'Lato', sans-serif;
     position: absolute;
     right: 5vw;
     top: 5vw;
     color: white;
     font-size: 7vw;
-    padding: 1vw 2.5vw 1vw 2.5vw;
+    padding: 1vw 3vw 1vw 3vw;
     border-radius: 50%;
     cursor: pointer;
     border: 0.5vw solid transparent;
