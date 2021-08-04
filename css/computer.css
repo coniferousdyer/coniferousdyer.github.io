@@ -12,7 +12,6 @@ body {
 }
 
 section {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,6 +19,7 @@ section {
 
 #home {
     background-color: #0b0c10;
+    height: 100vh;
 }
 
 #header {
@@ -59,6 +59,7 @@ section {
 
 #about {
     background-color: #66fcf2c5;
+    height: 100vh;
 }
 
 #about-container {
@@ -141,6 +142,7 @@ section {
     justify-content: flex-start;
     background-image: repeating-linear-gradient(-45deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 1px, transparent 6px);
     background-size: 8px 8px;
+    height: 100vh;
 }
 
 #contact-overlay {
@@ -221,6 +223,7 @@ section {
 
 #skills {
     background: linear-gradient(110deg, #2b7a78 60%, #3aafa9 60%);
+    height: 100vh;
 }
 
 #skills-content {
@@ -285,13 +288,163 @@ section {
     background-image: repeating-linear-gradient(-45deg, #3aafa9, rgba(255,255,255, 0.25) 1px, transparent 1px, transparent 6px);
     background-size: 8px 8px;
     flex-direction: column;
+    padding-bottom: 5vw;
 }
 
-#projects h1 {
+#projects-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#projects-header h1 {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 6vw;
+    visibility: visible;
+    color: black;
     margin: 0;
+    font-size: 6vw;
+    text-align: center;
+    letter-spacing: 2vw;
+    margin-left: 3vw; 
     cursor: default;
+    transition: color 0.3s;
+}
+
+#projects-header p {
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2vw;
+}
+
+#laptop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#laptop #monitor {
+    width: 55vw;
+    height: 32vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vw;
+    border: 0.1vw solid black;
+}
+
+#laptop #monitor #screen {
+    width: 53vw;
+    height: 30vw;
+    background-color: white;
+    border-radius: 0.5vw;
+    position: relative;
+    border: 0.1vw solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#laptop #keyboard {
+    width: 60vw;
+    height: 1.7vw;
+    background-color: white;
+    margin-top: 0.1vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 1vw 1vw;
+    border: 0.1vw solid black;
+}
+
+#laptop #keyboard #touchpad {
+    background-color: white;
+    border: 0.1vw solid black;
+    height: 0.7vw;
+    width: 10vw; 
+    border-radius: 0 0 0.5vw 0.5vw;
+}
+
+#button, #top-bar {
+    visibility: hidden;
+}
+
+#project-description {
+    position: absolute;
+    bottom: 0;
+    cursor: default;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+}
+
+#project-description h3 {
+    color: black;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 2vw;
+    margin-left: 1.5vw;
+}
+
+#project-description p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    margin-top: 0;
+    font-size: 1vw;
+    margin-left: 1.5vw;
+}
+
+.projects-page {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.projects-page img {
+    width: 45vw;
+    margin-left: 5vw;
+    border: 0.1vw solid black;
+}
+
+.projects-page .description {
+    height: 24vw;
+    margin-left: 3vw;
+}
+
+.projects-page .description h1 {
+    color: black;
+    width: 80%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 4vw;
+    cursor: default;
+    margin: 0;
+    transition: color 0.3s;
+}
+
+.projects-page .description p {
+    color: black;
+    width: 80%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1vw;
+    margin-bottom: 3vw;
+}
+
+.projects-page .description a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1vw;
+    font-weight: 700;
+    border: 0.15vw solid black;
+    padding: 1vw;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.projects-page .description a:hover {
+    color: white;
+    background-color: black;
 }
 
 nav {

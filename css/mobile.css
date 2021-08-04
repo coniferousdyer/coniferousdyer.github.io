@@ -108,9 +108,96 @@
     font-size: 3vw;
 }
 
-#projects h1 {
-    font-size: 9vw;
-    margin-bottom: -10vw;
+#projects-header p {
+    font-size: 3vw;
+    text-align: center;
+    width: 80%;
+}
+
+#laptop {
+    display: flex;
+    margin-bottom: -15vw;
+    bottom: 25vw;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#laptop #monitor {
+    margin-left: 3vw;
+    width: 55vw;
+    height: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3vw;
+}
+
+#laptop #monitor #screen {
+    width: 52vw;
+    height: 85vw;
+    background-color: white;
+    border: 0.1vw solid black;
+    border-radius: 0.5vw;
+    position: relative;
+}
+
+
+#laptop #keyboard {
+    visibility: hidden;
+}
+
+#button {
+    visibility: visible;
+    background-color: white;
+    border: 0.1vw solid black;
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    bottom: 3.7vw;
+    border-radius: 50%;
+}
+
+#top-bar {
+    visibility: visible;
+    background-color: white;
+    border: 0.1vw solid black;
+    width: 7vw;
+    height: 1vw;
+    position: absolute;
+    bottom: 97vw;
+    border-radius: 1vw;
+    z-index: 4
+}
+
+.projects-page {
+    flex-direction: column;
+    height: 65vh;
+}
+
+.projects-page img {
+    width: 75vw;
+}
+
+.projects-page .description {
+    margin-top: 5vw;
+    margin-left: 15vw;
+}
+
+.projects-page .description h1 {
+    font-size: 7vw;
+    -webkit-text-stroke-width: 0.2vw;
+    line-height: 8vw;
+}
+
+.projects-page .description p {
+    font-size: 3vw;
+}
+
+.projects-page .description a {
+    font-size: 2.5vw;
+    padding: 2vw;
 }
 
 #contact {
