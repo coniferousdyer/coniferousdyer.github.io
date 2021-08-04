@@ -288,115 +288,18 @@ section {
     background-image: repeating-linear-gradient(-45deg, #3aafa9, rgba(255,255,255, 0.25) 1px, transparent 1px, transparent 6px);
     background-size: 8px 8px;
     flex-direction: column;
-    padding-bottom: 5vw;
 }
 
-#projects-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-#projects-header h1 {
+#projects h1 {
     font-family: 'Barlow Condensed', sans-serif;
-    visibility: visible;
-    color: black;
     margin: 0;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
     font-size: 6vw;
-    text-align: center;
-    letter-spacing: 2vw;
-    margin-left: 3vw; 
-    cursor: default;
-    transition: color 0.3s;
-}
-
-#projects-header p {
-    color: black;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.2vw;
-}
-
-#laptop {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#laptop #monitor {
-    width: 55vw;
-    height: 32vw;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1vw;
-    border: 0.1vw solid black;
-}
-
-#laptop #monitor #screen {
-    width: 53vw;
-    height: 30vw;
-    background-color: white;
-    border-radius: 0.5vw;
-    position: relative;
-    border: 0.1vw solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#laptop #keyboard {
-    width: 60vw;
-    height: 1.7vw;
-    background-color: white;
-    margin-top: 0.1vw;
-    display: flex;
-    justify-content: center;
-    border-radius: 0 0 1vw 1vw;
-    border: 0.1vw solid black;
-}
-
-#laptop #keyboard #touchpad {
-    background-color: white;
-    border: 0.1vw solid black;
-    height: 0.7vw;
-    width: 10vw; 
-    border-radius: 0 0 0.5vw 0.5vw;
-}
-
-#button, #top-bar {
-    visibility: hidden;
-}
-
-#project-description {
-    position: absolute;
-    bottom: 0;
-    cursor: default;
-    width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
-}
-
-#project-description h3 {
-    color: black;
-    margin: 0;
-    font-family: 'Anton', sans-serif;
-    font-size: 2vw;
-    margin-left: 1.5vw;
-}
-
-#project-description p {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: black;
-    margin-top: 0;
-    font-size: 1vw;
-    margin-left: 1.5vw;
 }
 
 .projects-page {
-    height: 60vh;
+    margin-bottom: 5vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -405,7 +308,7 @@ section {
 .projects-page img {
     width: 45vw;
     margin-left: 5vw;
-    border: 0.1vw solid black;
+    border-radius: 1vw;
 }
 
 .projects-page .description {
@@ -417,9 +320,9 @@ section {
     color: black;
     width: 80%;
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 4vw;
+    font-size: 4vw !important;
     cursor: default;
-    margin: 0;
+    margin: 0 !important;
     transition: color 0.3s;
 }
 
