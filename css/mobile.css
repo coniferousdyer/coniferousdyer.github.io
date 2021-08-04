@@ -8,7 +8,6 @@
 
 #navbar {
     display: flex;
-    justify-content: right;
 }
 
 #hamburger-icon {
@@ -35,7 +34,7 @@
     justify-content: center;
     z-index: 5;
     position: fixed;
-    right: 0;
+    left: 0;
     background-color: black;
     transition: opacity 0.5s, width 0.5s;
 }
@@ -63,16 +62,17 @@
 }
 
 #close-button {
+    position: absolute;
+    right: 5vw;
+    top: 5vw;
     color: white;
     font-size: 7vw;
     padding: 1vw 2.5vw 1vw 2.5vw;
     border-radius: 50%;
-    position: absolute;
-    top: 5vw;
-    left: 5vw;
     cursor: pointer;
     border: 0.5vw solid transparent;
-    transition: color 0.3s, border 0.3s;
+    opacity: 0;
+    transition: color 0.3s, border 0.3s, opacity 0.3s;
 }
 
 #close-button:hover {
@@ -111,26 +111,6 @@
 #projects h1 {
     font-size: 9vw;
     margin-bottom: -10vw;
-}
-
-.splide__slide {
-    width: 20vw !important;
-    height: 90vw !important;
-}
-
-.splide__slide h3 {
-    margin-top: 47vw;
-    font-size: 2.8vw;
-}
-
-.splide__slide p {
-    font-size: 2vw;
-}
-
-.splide__slide a {
-    font-size: 2vw;
-    position: absolute;
-    bottom: 2vw;
 }
 
 #contact {
