@@ -161,7 +161,9 @@
 }
 
 #contact-overlay {
-    height: 60%;
+    height: auto;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
     width: 70%;
 }
 
