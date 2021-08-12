@@ -40,6 +40,26 @@ section {
     margin: 0;
 }
 
+#header h1::selection {
+    color: none;
+    background: none;
+}
+
+#header h1::-moz-selection {
+    color: none;
+    background: none;
+}
+
+#header h3::selection {
+    color: none;
+    background: none;
+}
+
+#header h3::-moz-selection {
+    color: none;
+    background: none;
+}
+
 #header h3 {
     font-family: 'Lato', sans-serif;
     font-size: 1.2vw;
