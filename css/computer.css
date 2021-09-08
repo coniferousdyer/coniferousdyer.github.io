@@ -198,47 +198,11 @@ section {
     margin-top: 1.5vw;
 }
 
-#social-media-group-contact a span {
-    text-decoration: underline;
-    text-underline-offset: 0.5vw;
-    text-decoration-color: transparent;
-    transition: text-decoration 0.3s, color 0.3s;
-}
-
-#social-media-group-contact a:hover span {
-    text-decoration: underline;
-    color: #2b7a78;
-}
-
-.fa {
-    font-size: 2vw;
-    width: 2.5vw;
+.social-btn {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5vw !important;
+    width: 80%;
     margin-bottom: 1vw;
-}
-
-.link {
-    display: flex;
-    text-decoration: none;
-    color: black;
-}
-
-.link span {
-    font-size: 1.2vw;
-    font-family: 'Lato', sans-serif;
-    margin-left: 0.6vw;
-    margin-top: 0.2vw;
-}
-
-.fa-facebook-square {
-    color: #3b5998;
-}
-
-.fa-linkedin-square {
-    color: #007bb5;
-}
-
-.fa-envelope {
-    color: #e34234;
 }
 
 #skills {
@@ -357,18 +321,12 @@ section {
 
 .projects-page .description a {
     color: black;
-    text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1vw;
     font-weight: 700;
     border: 0.15vw solid black;
+    margin-top: -0.5vw;
     padding: 1vw;
-    transition: color 0.3s, background-color 0.3s;
-}
-
-.projects-page .description a:hover {
-    color: white;
-    background-color: black;
 }
 
 nav {
