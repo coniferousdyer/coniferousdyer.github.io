@@ -20,6 +20,16 @@
     color: black;
 }
 
+[data-aos="fill-bar-70"] {
+    width: 0;
+    color: transparent;
+    transition-property: width, color;
+}
+
+[data-aos="fill-bar-70"].aos-animate {
+    width: 70%;
+    color: black;
+}
 
 [data-aos="fill-bar-65"] {
     width: 0;
@@ -28,7 +38,7 @@
 }
 
 [data-aos="fill-bar-65"].aos-animate {
-    width:65%;
+    width: 65%;
     color: black;
 }
 
