@@ -34,11 +34,11 @@
     </nav>
     <div id="sidebar">
         <div onclick="closeSidebar()" id="close-button">X</div>
-        <a href="#home" onclick="closeSidebar()">HOME</a>
-        <a href="#about" onclick="closeSidebar()">ABOUT</a>
-        <a href="#skills" onclick="closeSidebar()">SKILLS</a>
-        <a href="#projects" onclick="closeSidebar()">PROJECTS</a>
-        <a href="#contact" onclick="closeSidebar()">CONTACT</a>
+        <a href="#home" onclick="closeSidebar()" class="disabled">HOME</a>
+        <a href="#about" onclick="closeSidebar()" class="disabled">ABOUT</a>
+        <a href="#skills" onclick="closeSidebar()" class="disabled">SKILLS</a>
+        <a href="#projects" onclick="closeSidebar()" class="disabled">PROJECTS</a>
+        <a href="#contact" onclick="closeSidebar()" class="disabled">CONTACT</a>
     </div>
 
     <section id="home">
@@ -64,7 +64,7 @@
                         solve
                         real-world problems, and am always looking to broaden my horizons. When I am not coding, I am
                         usually playing a game of FIFA or
-                        humming to Avicii. Currently, I am exploring web development and computer systems.</p>
+                        humming to Avicii. Currently, I am exploring backend web development and machine learning.</p>
                     <a href="#contact">REACH OUT TO ME <span>&#8594;</span></a>
                     <div class="ignore">Filler text - to be ignored</div>
                 </div>
@@ -129,9 +129,39 @@
         </div>
     </section>
 
-    <!-- <section id="technologies">
-        
-    </section> -->
+    <section id="technologies">
+        <h1 data-aos="fade-in" data-aos-delay="500" data-aos-anchor-placement="top-bottom">TECH I'VE WORKED WITH</h1>
+        <div id="technologies-content">
+            <div class="card" data-aos="flip-right" data-aos-delay="1500" data-aos-anchor-placement="top-bottom">
+                <img src="images/Flask.png">
+                <div class="card-title">Flask</div>
+            </div>
+            <div class="card" data-aos="flip-right" data-aos-delay="1500" data-aos-anchor-placement="top-bottom">
+                <img src="images/React.png">
+                <div class="card-title">React</div>
+            </div>
+            <div class="card" data-aos="flip-right" data-aos-delay="1500" data-aos-anchor-placement="top-bottom">
+                <img src="images/Bootstrap.png">
+                <div class="card-title">Bootstrap</div>
+            </div>
+            <div class="card" data-aos="flip-right" data-aos-delay="1500" data-aos-anchor-placement="top-bottom">
+                <img src="images/JQuery.png">
+                <div class="card-title">jQuery</div>
+            </div>
+            <div class="card" data-aos="flip-right" data-aos-delay="1500" data-aos-anchor-placement="top-bottom">
+                <img src="images/NodeJS.png">
+                <div class="card-title">Node.js</div>
+            </div>
+            <div class="card" data-aos="flip-right" data-aos-delay="1500" data-aos-anchor-placement="top-bottom">
+                <img src="images/SQL.png">
+                <div class="card-title">SQL</div>
+            </div>
+            <div class="card" data-aos="flip-right" data-aos-delay="1500" data-aos-anchor-placement="top-bottom">
+                <img src="images/Git.png">
+                <div class="card-title">Git</div>
+            </div>
+        </div>
+    </section>
 
     <section id="projects">
         <h1 data-aos="fade-in" data-aos-delay="500" data-aos-anchor-placement="top-bottom">PROJECTS</h1>
@@ -169,7 +199,8 @@
                 data-aos-anchor-placement="top-bottom">
             <div class="description" data-aos="fade-right" data-aos-delay="1500" data-aos-anchor-placement="top-bottom">
                 <h1>MEME GENERATOR</h1>
-                <p>A meme generator web app, built using React, that allows users to choose from various predefined templates and add
+                <p>A meme generator web app, built using React, that allows users to choose from various predefined
+                    templates and add
                     text via a drag-and-drop mechanism to create their own memes, download and share them with
                     friends.</p>
                 <a class="sbtn diag-btn black-btn" href="https://github.com/coniferousdyer/meme-generator"
@@ -231,12 +262,12 @@
                     data-aos-anchor-placement="top-bottom">
                     <a class="sbtn social-btn github" class="link" href="https://github.com/coniferousdyer"
                         target="_blank">GITHUB</a>
-                    <a class="sbtn social-btn facebook" class="link"
-                        href="https://www.facebook.com/arjun.muraleedharan.5" target="_blank">
-                        FACEBOOK</a>
                     <a class="sbtn social-btn linkedin" class="link"
                         href="https://www.linkedin.com/in/arjun-muraleedharan-2a10091bb" target="_blank">
                         LINKEDIN</a>
+                    <a class="sbtn social-btn facebook" class="link"
+                        href="https://www.facebook.com/arjun.muraleedharan.5" target="_blank">
+                        FACEBOOK</a>
                     <a class="sbtn social-btn microsoft" class="link"
                         href="mailto: arjun.muraleedharan@students.iiit.ac.in" target="_blank">
                         EMAIL</a>

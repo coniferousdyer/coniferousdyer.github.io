@@ -69,6 +69,10 @@
     transition: opacity 0.2s, color 0.3s;
 }
 
+.disabled {
+    pointer-events: none;
+}
+
 #sidebar a:hover {
     color: white;
 }
@@ -96,6 +100,26 @@
 #skills-content h1 {
     font-size: 9vw;
     margin-bottom: 3vw;
+}
+
+#technologies h1 {
+    font-size: 9vw;
+    margin-bottom: 7vw;
+}
+
+.card {
+    width: 21vw;
+    border-radius: 1.5vw;
+}
+
+.card img {
+    height: 15vw;
+    width: 15vw;
+}
+
+.card-title {
+    font-size: 3vw;
+    margin-top: 2vw;
 }
 
 .title {
