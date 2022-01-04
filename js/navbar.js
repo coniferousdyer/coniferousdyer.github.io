@@ -35,7 +35,7 @@ function changeFeatures(x) {
 
 let x = window.matchMedia("(max-width: 480px) and (orientation:portrait)");
 changeFeatures(x);
-x.addEventListener(changeFeatures);
+x.addListener(changeFeatures);
 
 function openSidebar() {
     let sidebar = document.getElementById("sidebar");
